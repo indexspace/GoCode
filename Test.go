@@ -1,3 +1,5 @@
+// TODO: select语句
+
 package main // 该文件在main包下
 
 import "fmt" // 需要用到fmt的格式化函数
@@ -28,9 +30,6 @@ func main() {
 
 	fmt.Println(zero, one, two, tree, four, five)
 	fmt.Println()
-
-	// TODO: select语句
-	// TODO: 各种数据类型 (包括但不限于指针)
 
 	// for 有四种形式 除了Java中的普通for和增强迭代for,
 	// 还有 for condition {}  , 和 for {} (/无限循环)
